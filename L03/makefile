@@ -8,8 +8,8 @@ function:
 array:
 	$(CC) $(FLAGS) -o runArray arrays.c
 
-run:
-	./runFile
+run:clean array
+	./runArray
 
 clean:
-	rm -f *.o *.out runFile
+	rm -f *.o *.out runFile runArray

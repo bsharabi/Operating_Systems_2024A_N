@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-void test(int num, int mis);
+int test(int num, int mis);
 
 int main()
 {
-    test(7, 5);
+    float a = test(7, 5);
+    printf("%lf",test(7, 5));
     printf("Hello World\n");
 
     return 0;
 }
-
-void test(int num, int mis)
+int test(int num, int mis)
 {
     printf("%d\n", num);
     printf("%d \n", num);
@@ -30,7 +30,10 @@ void test(int num, int mis)
 
     //System.out.println("Hello world " + mis1 +" ddd " +mis2); java
     //printf("Hello world %d ddd %d\n" , mis1,mis2); c
+
+    return 1;
 }
+
 /*
         %c character
         %d decimal (integer) number(base 10)
