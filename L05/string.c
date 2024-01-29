@@ -57,14 +57,13 @@ int main()
     // putchar('\0');
     // printf("%s", "\0");
 
+    printf("%d\n", 'a');
+    printf("%d\n", 'A');
+    printf("%d\n", 'a' - 'A');
 
-    printf("%d\n",'a');
-    printf("%d\n",'A');
-    printf("%d\n",'a'-'A');
+    printf("%c\n", 'y' - 32);
+    printf("%d\n", 'Y');
 
-    printf("%c\n",'y'-32);
-    printf("%d\n",'Y');
-
-
+   
     return 0;
 }
